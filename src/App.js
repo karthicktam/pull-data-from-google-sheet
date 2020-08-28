@@ -23,7 +23,7 @@ function BookData() {
     <div>
       <h3>Book data fetched from google sheet</h3>
       {loading === true ? (
-        <div class="loader">Loading...</div>
+        <div className="loader">Loading...</div>
       ) : (
         <ul className="ulTag">
           {data.map((el) => (
